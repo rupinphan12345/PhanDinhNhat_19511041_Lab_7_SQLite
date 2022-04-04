@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_SQLite">
         <activity
-            android:name=".MainActivity"
+            android:name=".ContactListActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

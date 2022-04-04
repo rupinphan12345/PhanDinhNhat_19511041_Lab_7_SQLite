@@ -23,7 +23,8 @@
         android:layout_marginTop="100dp"
         android:text="Remove"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="146dp" />
+        tools:layout_editor_absoluteX="146dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button3"
@@ -36,6 +37,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        android:id="@+id/editText"
         android:layout_width="357dp"
         android:layout_height="50dp"
         android:layout_marginTop="28dp"
@@ -45,9 +47,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ListView
-        android:layout_width="409dp"
-        android:layout_height="581dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="149dp" />
+        android:id="@+id/lvContactList"
+        android:layout_width="413dp"
+        android:layout_height="503dp"
+        android:layout_marginTop="212dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
